@@ -17,7 +17,7 @@ WORKDIR /data
 
 RUN mkdir -p /app
 
-COPY app/* /app
+COPY app/* /app/
 
 RUN chmod a+x /app/run.sh
 
