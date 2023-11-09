@@ -17,8 +17,8 @@ WORKDIR /data
 
 RUN mkdir -p /app
 
-COPY /app/run.sh /app
-COPY /app/app.py /app
+COPY app/run.sh /app
+COPY app/app.py /app
 
 RUN chmod a+x /app/run.sh
 RUN chmod a+x /app/app.py
