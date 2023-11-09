@@ -1,0 +1,18 @@
+name: "flask_hello_world"
+description: "flask_hello_world"
+version: "1.0.2"
+slug: "flask_hello_world"
+init: false
+ingress: true
+ingress_port: 8101
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: before
+ports:
+  8177/tcp: 8102
+map:
+  - share:rw
