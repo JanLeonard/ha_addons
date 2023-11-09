@@ -7,4 +7,4 @@ pwd
 
 ls /
 
-python3 /app.py
+python3 /app/app.py
