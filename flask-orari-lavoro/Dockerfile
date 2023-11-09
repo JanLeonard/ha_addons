@@ -20,8 +20,7 @@ RUN mkdir -p /app/static
 RUN mkdir -p /app/templates
 
 
-COPY app/templates/ /app/
-COPY app/static/ /app/
+COPY app/templates/*.html /app/templates/
 COPY app/*.* /app/
 
 RUN chmod a+x /app/run.sh
